@@ -81,7 +81,7 @@ def verifying():
             bool = name.isspace()
 def weather_search():
     global Elina
-    owm = pyowm.OWM('21f592716c0dc5d79039d2a779ce51d7')
+    owm = pyowm.OWM(<api-key>)
     weather_mgr = owm.weather_manager()
     place = Andrew
     observation = weather_mgr.weather_at_place(place)
